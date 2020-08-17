@@ -10,3 +10,10 @@ Text Domain: Tema Bonitão
 
 Esse tema é o melhor tema de todos, pois ele é grátis, até mesmo quem ta pobre pode utilizar sem problemas.
 */
+h1{
+	color:red;
+}
+.imagem{
+	width: 200px;
+	height: 200px;
+}
