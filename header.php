@@ -16,7 +16,7 @@
               <div class="col-3 logo">
 
               <a href="<?= site_url(); ?>">
-              	<img src="<?php echo get_template_directory_uri() ?>/assets/images/logo.png ?>" class= "imagem">
+              	<img src="<?php echo get_template_directory_uri() ?>/assets/images/logo.png ?>" class= "img-fluid">
               </a>
 
 
@@ -27,5 +27,5 @@
                        <p><?php bloginfo("description");  ?>
 	           	<div>
 			</div>
-
+ 
 
