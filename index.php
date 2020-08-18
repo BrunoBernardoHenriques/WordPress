@@ -30,8 +30,28 @@
 	  </div>
 	    </div>
 
+<div class="row">
 
+<?php if ( have_posts() ){
 
+while ( have_posts() ) {
+	 the_post();
+	 ?>
+  <div class="col-4">
+	 
+	<h3><?php the_title(); ?></h3>
+
+	<div class="img-fluid"><?php the_post_thumbnail(); ?> </div>
+
+	<p><?php the_excerpt();  ?></p>
+
+ </div>
+	<?php
+            }//while
+              }//if
+   
+   ?>
+        </div> 
 
 
 
