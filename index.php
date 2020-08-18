@@ -44,7 +44,7 @@ while ( have_posts() ) {
 	<div class="img-fluid"><?php the_post_thumbnail(); ?> </div>
 
 	<p><?php the_excerpt();  ?></p>
-
+     <a href="<?php the_permalink(); ?>">Leia Mais</a>
  </div>
 	<?php
             }//while
