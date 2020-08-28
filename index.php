@@ -8,13 +8,16 @@
 <h3 class="display-4">Seja bem vindo</h3>
 
 	</div>
+
 	  </div>
 	    </div>
 
 
-
-
-
+<div class ="row">
+	   <div class="col-12">
+	<?php masterslider(1); ?>
+</div>
+</div>
 
 
 <div class="row">

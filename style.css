@@ -11,14 +11,25 @@ Text Domain: Tema Bonitão
 Esse tema é o melhor tema de todos, pois ele é grátis, até mesmo quem ta pobre pode utilizar sem problemas.
 */
 .rodape{
-	background-color: lightgray;
-	color: black;
+	background-color: #16213e;
+color: #e94560;
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	text-align: center;
 }
 
 .rodape p{
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
+body{
+	color: #e94560;
+	 background-color: #1a1a2e;
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.jumbotron{
+	background-color: #16213e;
+}
+.navbar{
+background-color: #16213e;
+}
